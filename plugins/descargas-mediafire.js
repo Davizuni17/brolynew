@@ -56,7 +56,7 @@ async function mediaFire(url) {
 // Handler para el comando de MediaFire
 let handler = async (m, { conn, args, usedPrefix, command }) => {
   if (!args[0]) {
-    return m.reply(`🚩 Ingrese el enlace de un archivo de MediaFire`);
+    return m.reply(`🚩 Ingrese enlace de un archivo de MediaFire👁️`);
   }
   
   if (!args[0].match(/mediafire/gi)) {
